@@ -20,6 +20,6 @@ div#Calendar { max-width: 300px }
 ```
 
 Which will get you something like this: 
-![300px wide (Retina)](https://imgur.com/yWWYoRb)
+![300px wide (Retina)](https://i.imgur.com/yWWYoRb.png)
 
 
