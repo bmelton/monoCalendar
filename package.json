@@ -1,0 +1,38 @@
+{
+  "name": "monocalendar",
+  "version": "0.1.0",
+  "description": "A minimalist, uber-responsive calendar widget built with React that you can use almost anywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmelton/monoCalendar.git"
+  },
+  "keywords": [
+    "calendar",
+    "react",
+    "responsive",
+    "cssgrid",
+    "javascript",
+    "widget"
+  ],
+  "author": {
+    "name": "Barry Melton",
+    "email": "barry.melton@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmelton/monoCalendar/issues"
+  },
+  "homepage": "https://github.com/bmelton/monoCalendar#readme",
+  "peerDependencies": {      
+    "react": ">=15.0.1",
+    "react-dom": ">=15.0.1"
+  },
+  "devDependencies": {      
+    "react": ">=15.0.1",      
+    "react-dom": ">=15.0.1"  
+  }
+}
