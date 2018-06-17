@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body { 
+  background-color: #E2E1E0;
+  text-align: center;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11pt;
+}
+
+div#Calendar { 
+  /* Style this however you want */
+  background: white;
+  padding: .5rem 1rem 2rem 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+div#calHeader {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  margin: 1rem 0 1rem 0;
+  justify-items: center;
+}
+
+h1 { font-size: 14pt; margin: 0; }
+
+div.nextMonth:Hover,
+div.prevMonth:Hover { cursor: pointer; }
+
+CalHeader,
+div#calDayNames,
+div#calDays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+}
+div.day {
+  padding: .4rem 0 .2rem 0;
+  margin: .4rem 0 .2rem 0;
+}
+
+div.day {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  text-justify: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+div.day.active {
+  background-color: #34b67a;
+  color: white;
+  display: flex;
+  padding: .5rem .6rem .4rem .5rem;
+  flex-direction: column;
+  flex: 1;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
